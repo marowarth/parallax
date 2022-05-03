@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    background-color: #232323;
+    color: white;
+    overflow-x: hidden;
+}
+.banner{
+    background-image: url(/assets/images/mountain.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh);
+    width: 100%;
+    position: relative;
+}
+.title{
+    position: absolute;
+    bottom: 230px;
+    text-align: center;
+    font-weight: 900;
+}
+.text{
+    position: relative;
+    padding: 20px 100px 0px 100px;
+    text-align: justify;
+}
+.mountainsize{
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position:left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.left{
+    transform: scaleX(-1);
+}
+
