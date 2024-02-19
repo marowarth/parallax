@@ -26,9 +26,9 @@
     .col-offset-12 {margin-left: 100%;}
 
     .mountain{
-        background-image: url(/assets/images/mountainNoBack.png);
+        background-image: url(/src/assets/images/mountainNoBack.png);
     }
     .mountainslow{
-        background-image: url(/assets/images/mountainNoBack.png);
+        background-image: url(/src/assets/images/mountainNoBack.png);
     }
 }
